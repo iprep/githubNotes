@@ -1,1 +1,88 @@
-"ti love"
+git help // list of commands
+
+git help command // documentation on command 
+
+git config  — globe config.ui true
+
+git init  // creates local git repo
+
+git status // what has changed since your last commit  and what branches or new files
+
+git add . or git add filename or git add .filetype or “.filetype” current, project // adds file(s) to stage 
+
+git commit -m ”Description” // takes snapshot of the stage, adds to top of timeline 
+
+git log // see the commits in timeline 
+
+git diff // unstaged differences since last commit 
+	git add
+git diff — staged 
+
+git reset Head file//unstaging
+git checkout —filename //file restore to previous state 
+
+git commit -a -m”Message” // wont add untracked files but 
+git reset —soft HEAD // undo last commit
+
+git commit —amend -m””
+
+git reset —hard HEAD ^     //undo last 
+git reset —hard HEAD ^^  //undo last 
+
+git remote add origin url
+git remote -v 
+git push -u origin master 
+
+…git password caching…
+
+git pull 
+
+git remote rm <name>
+git push -u <name> <branch>
+
+====LEVEL 3 
+git clone url // downloads repo, creates remote origin, checkout initial branch 
+git branch  //see what branch you are on 
+git branch cat // switching timeline  to cat
+
+git merge car //while on master branch, will merge cat branch into master
+git branch -d cat // delete cat branch 
+
+git checkout -b admin //creates and checkout 
+
+
+====LEVEL 4 Collaboration Basics
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Git Notes
+
+git config —global user.email      
+git config —global user.email      “example@email.com”
+
+git config --global user.name
+git config --global user.name     “John Doe”
+
+ 
+git clone “https://github.com/user/repo”
+
+git status 
+
+git add . 
+git add “filename.filetype”
+
+ git commit -m"YEE"
+
+git branch -b branchName —> creates and switch 
+git branch branchName —> creates
+git checkout branchName —-> switch
+
+git branch -d branchName —> can’t be on branchName
+
+
+write tests….
+
+git squash 
+
+
