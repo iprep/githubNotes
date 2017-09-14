@@ -74,7 +74,7 @@ git branch -D branchNAme // deletes the local branch, even if not merged
 
 git remote prune origin //cleans up and remove stale references 
 
-git push heroku-branch-staging staging:master 
+git push heroku-branch-staging staging:master  
 
 TAGS :
 
